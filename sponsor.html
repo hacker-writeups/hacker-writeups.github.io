@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sponsorship Opportunities | Hacker Resources</title>
+    <link rel="icon" href="/images/logo.png" sizes="any" />
+    <link rel="icon" type=image/svg+xml href="/images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png" />
+    <link rel=icon type=image/png sizes=16x16 href="/images/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Sponsorship Opportunities</h1>
+        <p>Support the pentesting community while growing your brand</p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links active">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/notification.html">Notification</a></li>
+          <li><a href="sponsor.html" class="active">Sponsor</a></li>
+          <li><a href="submit.html">Submit</a></li>
+        </ul>
+
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search resources..."
+          />
+          <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <section class="current-sponsors">
+        <h2>Our Current Sponsors</h2>
+        <!-- <div class="sponsors-grid">
+          <div class="sponsor">
+            <img
+              src="https://via.placeholder.com/150x80?text=Gold+Sponsor"
+              alt="Gold Sponsor"
+            />
+          </div>
+          <div class="sponsor">
+            <img
+              src="https://via.placeholder.com/120x60?text=Silver+Sponsor"
+              alt="Silver Sponsor"
+            />
+          </div>
+          <div class="sponsor">
+            <img
+              src="https://via.placeholder.com/100x50?text=Bronze+Sponsor"
+              alt="Bronze Sponsor"
+            />
+          </div>
+        </div> -->
+        <div class="sponsor">N/A</div>
+      </section>
+
+      <section class="sponsorship-tiers">
+        <h2>Sponsorship Tiers</h2>
+
+        <div class="tiers-grid">
+          <div class="tier bronze">
+            <h3>Bronze Sponsor</h3>
+            <div class="price">$10/month</div>
+            <ul class="benefits">
+              <li>
+                <i class="fas fa-check"></i> Logo placement on sponsors page
+              </li>
+
+              <!-- <li>
+                <i class="fas fa-check"></i> Mention in monthly newsletter
+              </li>
+              <li>
+                <i class="fas fa-check"></i> 1 featured resource per month
+              </li> -->
+            </ul>
+            <a href="#contact" class="btn">Inquire About Bronze</a>
+          </div>
+
+          <div class="tier silver">
+            <h3>Silver Sponsor</h3>
+            <div class="price">$50/6 months</div>
+            <ul class="benefits">
+              <li><i class="fas fa-check"></i> All Bronze benefits</li>
+              <li><i class="fas fa-check"></i> Logo on homepage footer</li>
+              <!-- <li>
+                <i class="fas fa-check"></i> 2 featured resources per month
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Priority placement in directory
+              </li> -->
+            </ul>
+            <a href="#contact" class="btn">Inquire About Silver</a>
+          </div>
+
+          <div class="tier gold">
+            <h3>Gold Sponsor</h3>
+            <div class="price">$100/year</div>
+            <ul class="benefits">
+              <li><i class="fas fa-check"></i> All Silver benefits</li>
+              <li><i class="fas fa-check"></i> Top banner placement</li>
+              <li><i class="fas fa-check"></i> Add your own thing</li>
+            </ul>
+            <a href="#contact" class="btn">Inquire About Gold</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="sponsor-contact">
+        <h2>Become a Sponsor</h2>
+        <form id="sponsorForm" method="POST">
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Sponsorship Inquiry"
+          />
+          <input type="hidden" name="_next" value="thank-you-sponsor.html" />
+
+          <div class="form-group">
+            <label for="company">Company Name*</label>
+            <input type="text" id="company" name="company" required />
+          </div>
+
+          <div class="form-group">
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+
+          <div class="form-group">
+            <label for="tier">Interest Level*</label>
+            <select id="tier" name="tier" required>
+              <option value="">Select sponsorship tier</option>
+              <option value="Bronze">Bronze ($10/month)</option>
+              <option value="Silver">Silver ($50/6 month)</option>
+              <option value="Gold">Gold ($100/year)</option>
+              <option value="Custom">Custom Sponsorship</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Additional Information</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+
+          <div class="form-group">
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Submit Sponsorship Inquiry
+            </button>
+          </div>
+        </form>
+        <div id="formMessage" class="hidden"></div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>© 2024 Hacker Resources | Created by Redwan Ahmed</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="sponsor.js"></script>
+  </body>
+</html>

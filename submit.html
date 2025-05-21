@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Write-Ups | Hacker Write-Ups</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/images/logo.png" sizes="any" />
+    <link rel="icon" type=image/svg+xml href="/images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png" />
+    <link rel=icon type=image/png sizes=16x16 href="/images/logo.png">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Submit a Write-Ups</h1>
+        <p>Contribute to the pentesting community</p>
+      </div>
+    </header>
+
+    <nav>
+      <div class="container">
+        <!-- Add this button for mobile menu -->
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links active">
+          <li><a href="/">Home</a></li>
+          <!-- <li><a href="/notification.html">Notification</a></li> -->
+          <!-- <li><a href="/sponsor.html">Sponsor</a></li> -->
+          <li><a href="/submit.html" class="active">Submit</a></li>
+        </ul>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Write-Ups..."
+          />
+          <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="submit-form-container">
+        <form
+          id="resourceForm"
+          action="https://formspree.io/f/xkgrykqq"
+          method="POST"
+        >
+          <!-- Add a hidden _subject field for better email organization -->
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Pentester Write-Ups Submission"
+          />
+          <!-- Add honeypot field for spam prevention -->
+          <input type="text" name="_gotcha" style="display: none" />
+          <!-- Your existing form fields -->
+          <div class="form-group">
+            <label for="title">Write-Ups Title*</label>
+            <input type="text" id="title" name="title" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="url">URL*</label>
+            <input type="url" id="url" name="url" required />
+          </div>
+
+          <div class="form-group">
+            <label for="description">Description*</label>
+            <textarea
+              id="description"
+              name="description"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="author">Your Name (optional)</label>
+            <input type="text" id="author" name="author" />
+          </div>
+          <!-- For checkboxes, we need to format them as array -->
+          <div class="form-group">
+            <label>Tags* (select at least one)</label>
+            <div class="tag-options">
+              <label
+                ><input type="checkbox" name="tags[]" value="web" />
+                Write-Ups</label
+              >
+              <label
+                ><input type="checkbox" name="tags[]" value="web" />
+                Bounty</label
+              >
+              <label
+                ><input type="checkbox" name="tags[]" value="network" />
+                Others</label
+              >
+              <!-- ... other tags ... -->
+            </div>
+          </div>
+
+          <!-- Add redirect after successful submission -->
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/thank-you.html"
+          />
+          <input type="hidden" name="_next" value="/thank-you.html" />
+          <input
+            type="hidden"
+            name="_subject"
+            value="New Write-Ups Submission"
+          />
+
+          <div class="form-group">
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Submit Write-Ups
+            </button>
+          </div>
+        </form>
+        <div class="submit-guidelines">
+          <h3>Submission Guidelines</h3>
+          <ul>
+            <li>Only submit Write-Ups relevant to pentesting/security</li>
+            <li>Provide accurate descriptions</li>
+            <li>No illegal or unethical content</li>
+            <li>Commercial tools must be clearly marked</li>
+            <li>Submissions will be reviewed before appearing</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© 2024 Pentester Write-Ups | Created by Redwan Ahmed</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="submit.js"></script>
+  </body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="application/json; charset=UTF-8" />
+    <title>Hacker Write-Ups</title>
+    <link rel="icon" href="/images/logo.png" sizes="any" />
+    <link rel="icon" type=image/svg+xml href="/images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png" />
+    <link rel=icon type=image/png sizes=16x16 href="/images/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Hacker Write-Ups</h1>
+        <p class="description">
+          I am
+          <a href="https://linkedin.com/in/r3dw4n-48m3d" target="_blank"
+            >Redwan Ahmed</a
+          >, A uncertified and Noob Hacker passionate about Red Teaming and
+          offensive security. I share something that will makes your life as bug
+          hunters and pentesters easier. <br />
+          On this site, you will find Writeups, Tools, Cheatsheets and much
+          more. Also you can <a href="#">submit</a> your own Writeups, Tools or
+          other thing.
+          <!-- <br /><br /><b
+            >Every Friday New Writeups will be added Inshallah</b
+          > -->
+        </p>
+      </div>
+    </header>
+    <nav>
+      <div class="container">
+        <!-- Add this button for mobile menu -->
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+          <li><a href="/" class="active">Home</a></li>
+          <!-- <li><a href="/notification.html">Notification</a></li> -->
+          <!-- <li><a href="/sponsor.html">Sponsor</a></li> -->
+          <li><a href="/submit.html">Submit</a></li>
+        </ul>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Write-Ups..."
+          />
+          <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <div class="filter-controls">
+        <div class="tag-filters">
+          <span>Filter by tag:</span>
+          <div class="tags" id="tagContainer">
+            <!-- Tags will be inserted here by JavaScript -->
+          </div>
+        </div>
+        <button id="darkModeToggle">
+          <i class="fas fa-moon"></i> Dark Mode
+        </button>
+      </div>
+      <div class="resource-grid" id="resourceGrid">
+        <!-- Resources will be inserted here by JavaScript -->
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <p>© 2024 Hacker Write-Ups | Created By Redwan Ahmed</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

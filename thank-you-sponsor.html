@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank You for Your Sponsorship Inquiry</title>
+    <link rel="icon" href="/images/logo.png" sizes="any" />
+    <link rel="icon" type=image/svg+xml href="/images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/logo.png" />
+    <link rel=icon type=image/png sizes=16x16 href="/images/logo.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Thank You!</h1>
+        <p>We appreciate your interest in sponsoring Pentester Resources</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="thank-you-message">
+        <div class="icon-circle">
+          <i class="fas fa-check"></i>
+        </div>
+        <h2>Your sponsorship inquiry has been received</h2>
+
+        <div id="submissionDetails" class="submission-details">
+          <!-- Filled by JavaScript -->
+        </div>
+
+        <p>
+          Our team will review your information and contact you within 2
+          business days.
+        </p>
+
+        <div class="actions">
+          <a href="index.html" class="btn">
+            <i class="fas fa-home"></i> Return to Home
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const detailsContainer = document.getElementById("submissionDetails");
+        const storedData = sessionStorage.getItem("sponsorSubmission");
+
+        if (storedData) {
+          const data = JSON.parse(storedData);
+          let html = "<h3>Your Submission Details:</h3><ul>";
+
+          // Display selected fields
+          const fieldsToShow = ["company", "name", "email", "tier"];
+          fieldsToShow.forEach((field) => {
+            if (data[field]) {
+              html += `<li><strong>${
+                field.charAt(0).toUpperCase() + field.slice(1)
+              }:</strong> ${data[field]}</li>`;
+            }
+          });
+
+          html += "</ul>";
+          detailsContainer.innerHTML = html;
+
+          // Clear the storage
+          sessionStorage.removeItem("sponsorSubmission");
+        }
+      });
+    </script>
+  </body>
+</html>
