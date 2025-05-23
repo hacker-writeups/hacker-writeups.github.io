@@ -1,5 +1,13 @@
 [
   {
+    "title": "$7,500 Bounty — XSS → RCE in Steam’s React Chat Client",
+    "description": "Bounty - $7,500",
+    "url": "https://osintteam.blog/7-500-bounty-xss-rce-in-steams-react-chat-client-1394aaecaec4",
+    "tags": ["Bug Bounty", "Bounty","XSS","RCE"],
+    "author": "Monika sharma",
+    "date": "2025-05-23"
+  },
+  {
     "title": "Reflected Chaos: How One XSS Vector Spawned Three CVEs",
     "description": "-",
     "url": "https://medium.com/@bonghaxor_34691/reflected-chaos-how-one-xss-vector-spawned-three-cves-f20e2df3275f",
