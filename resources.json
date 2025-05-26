@@ -1,5 +1,13 @@
 [
   {
+    "title": "$500 Bounty: How One Forum DM Unleashed Stored XSS on SideFX",
+    "description": "Bounty - $500",
+    "url": "https://medium.com/mr-plan-publication/500-bounty-how-one-forum-dm-unleashed-stored-xss-on-sidefx-546ee9cab12d#bypass",
+    "tags": ["Bug Bounty", "Bounty","XSS","Stored XSS"],
+    "author": "Monika sharma",
+    "date": "2025-05-26"
+  },
+  {
     "title": "💰 Here's How I Got My First Bounty: €1000 by Exploiting a Stored XSS",
     "description": "Bounty - €1000",
     "url": "https://medium.com/@sohelparashar/heres-how-i-got-my-first-bounty-1000-db3264adeac0",
