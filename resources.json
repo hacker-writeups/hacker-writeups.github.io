@@ -1,5 +1,13 @@
 [
   {
+    "title": "How a Forgotten Link Parser Led to a $5000 XSS on Reddit",
+    "description": "Bounty - $5000",
+    "url": "https://osintteam.blog/how-a-forgotten-link-parser-led-to-a-5000-xss-on-reddit-b247cac099ff#bypass",
+    "tags": ["Bug Bounty", "Bounty","XSS","Stored XSS"],
+    "author": "Monika sharma",
+    "date": "2025-05-27"
+  },
+  {
     "title": "$500 Bounty: How One Forum DM Unleashed Stored XSS on SideFX",
     "description": "Bounty - $500",
     "url": "https://medium.com/mr-plan-publication/500-bounty-how-one-forum-dm-unleashed-stored-xss-on-sidefx-546ee9cab12d#bypass",
