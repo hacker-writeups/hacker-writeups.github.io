@@ -1,5 +1,13 @@
 [
   {
+    "title": "How Recon → SQLi Made €€€€ Bounty",
+    "description": "Bounty - $$$$",
+    "url": "https://infosecwriteups.com/how-recon-sqli-made-bounty-425fc0fa2e92",
+    "tags": ["Bug Bounty", "Bounty","SQLi","BugCrowd"],
+    "author": "Iski",
+    "date": "2025-05-28"
+  },
+  {
     "title": "How a Forgotten Link Parser Led to a $5000 XSS on Reddit",
     "description": "Bounty - $5000",
     "url": "https://osintteam.blog/how-a-forgotten-link-parser-led-to-a-5000-xss-on-reddit-b247cac099ff#bypass",
