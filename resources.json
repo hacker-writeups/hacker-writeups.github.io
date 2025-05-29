@@ -1,5 +1,13 @@
 [
   {
+    "title": "Bug Bounty — Mail Injection",
+    "description": "-",
+    "url": "https://medium.com/@zatikyan.sevada/bug-bounty-mail-injection-6ec9ffefc24b",
+    "tags": ["Bug Bounty", "Bounty","Injection","HTML"],
+    "author": "Sevada797",
+    "date": "2025-05-29"
+  },
+  {
     "title": "How Recon → SQLi Made €€€€ Bounty",
     "description": "Bounty - $$$$",
     "url": "https://infosecwriteups.com/how-recon-sqli-made-bounty-425fc0fa2e92",
