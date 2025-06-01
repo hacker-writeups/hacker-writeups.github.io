@@ -1,5 +1,13 @@
 [
   {
+    "title": "Business Logic Bug: Enforce victim to accept the invitation",
+    "description": "-",
+    "url": "https://medium.com/@pent0ss/business-logic-bug-enforce-victim-to-accept-the-invitation-3e7811978ad0",
+    "tags": ["Bug Bounty","BugCrowd"],
+    "author": "Ossama (@pent0ss)",
+    "date": "2025-06-01"
+  },
+  {
     "title": "My Journey to NASA’s Hall of Fame",
     "description": "-",
     "url": "https://medium.com/@dharineeshj2/my-journey-to-nasas-hall-of-fame-6e680736f557",
