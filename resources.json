@@ -11,7 +11,7 @@
     "title": "My Journey to NASA’s Hall of Fame",
     "description": "-",
     "url": "https://medium.com/@dharineeshj2/my-journey-to-nasas-hall-of-fame-6e680736f557",
-    "tags": ["Bug Bounty", "HOF","BugCrowd"],
+    "tags": ["Bug Bounty","BugCrowd"],
     "author": "Hack-Bat",
     "date": "2025-05-31"
   },
@@ -27,7 +27,7 @@
     "title": "Bug Bounty — Mail Injection",
     "description": "-",
     "url": "https://medium.com/@zatikyan.sevada/bug-bounty-mail-injection-6ec9ffefc24b",
-    "tags": ["Bug Bounty", "Bounty","Injection","HTML"],
+    "tags": ["Bug Bounty", "Bounty","Injection"],
     "author": "Sevada797",
     "date": "2025-05-29"
   },
@@ -43,7 +43,7 @@
     "title": "How a Forgotten Link Parser Led to a $5000 XSS on Reddit",
     "description": "Bounty - $5000",
     "url": "https://osintteam.blog/how-a-forgotten-link-parser-led-to-a-5000-xss-on-reddit-b247cac099ff#bypass",
-    "tags": ["Bug Bounty", "Bounty","XSS","Stored XSS"],
+    "tags": ["Bug Bounty", "Bounty","XSS"],
     "author": "Monika sharma",
     "date": "2025-05-27"
   },
