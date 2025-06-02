@@ -1,5 +1,13 @@
 [
   {
+    "title": "Unauthorized Access to Source Document Images in ERP System",
+    "description": "-",
+    "url": "https://medium.com/@hossam13/unauthorized-access-to-source-document-images-in-erp-system-0838d399d14c",
+    "tags": ["Bug Bounty"],
+    "author": "Hossam Hussein",
+    "date": "2025-06-02"
+  },
+  {
     "title": "Business Logic Bug: Enforce victim to accept the invitation",
     "description": "-",
     "url": "https://medium.com/@pent0ss/business-logic-bug-enforce-victim-to-accept-the-invitation-3e7811978ad0",
