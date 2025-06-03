@@ -1,5 +1,13 @@
 [
   {
+    "title": "Authentication Bypass via OTP Response Manipulation",
+    "description": "-",
+    "url": "https://medium.com/@youssefhussein212103168/authentication-bypass-via-otp-response-manipulation-228bca9244d2",
+    "tags": ["Bug Bounty"],
+    "author": "Youssefhussein",
+    "date": "2025-06-03"
+  },
+  {
     "title": "Unauthorized Access to Source Document Images in ERP System",
     "description": "-",
     "url": "https://medium.com/@hossam13/unauthorized-access-to-source-document-images-in-erp-system-0838d399d14c",
