@@ -1,5 +1,13 @@
 [
   {
+    "title": "Mass Message Injection and IDOR in Account Verification",
+    "description": "Bounty - $Hidden",
+    "url": "https://kingcoolvikas.medium.com/mass-message-injection-and-idor-in-account-verification-c599b729321d",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Vikas Anand",
+    "date": "2025-06-09"
+  },
+  {
     "title": "$150 Bounty: How a 6-Digit Code Bypass Led to a Permanent Account Lockout on Evernote",
     "description": "Bounty - $150",
     "url": "https://osintteam.blog/150-bounty-how-a-6-digit-code-bypass-led-to-a-permanent-account-lockout-on-evernote-8d78e10557f4#bypass",
@@ -107,7 +115,7 @@
     "title": "$500 Bounty: How One Forum DM Unleashed Stored XSS on SideFX",
     "description": "Bounty - $500",
     "url": "https://medium.com/mr-plan-publication/500-bounty-how-one-forum-dm-unleashed-stored-xss-on-sidefx-546ee9cab12d#bypass",
-    "tags": ["Bug Bounty", "Bounty","XSS","Stored XSS","HackerOne"],
+    "tags": ["Bug Bounty", "Bounty","XSS","HackerOne"],
     "author": "Monika sharma",
     "date": "2025-05-26"
   },
@@ -115,7 +123,7 @@
     "title": "💰 Here's How I Got My First Bounty: €1000 by Exploiting a Stored XSS",
     "description": "Bounty - €1000",
     "url": "https://medium.com/@sohelparashar/heres-how-i-got-my-first-bounty-1000-db3264adeac0",
-    "tags": ["Bug Bounty", "Bounty","XSS","Stored XSS"],
+    "tags": ["Bug Bounty", "Bounty","XSS"],
     "author": "Risky",
     "date": "2025-05-25"
   },
