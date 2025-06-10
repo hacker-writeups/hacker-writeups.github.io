@@ -1,5 +1,13 @@
 [
   {
+    "title": "GraphQL Role Escalation and Data Exposure",
+    "description": "-",
+    "url": "https://medium.com/@omerasraan/graphql-role-escalation-and-data-exposure-4cc340431289",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Omer Mohsen",
+    "date": "2025-06-10"
+  },
+  {
     "title": "Mass Message Injection and IDOR in Account Verification",
     "description": "Bounty - $Hidden",
     "url": "https://kingcoolvikas.medium.com/mass-message-injection-and-idor-in-account-verification-c599b729321d",
