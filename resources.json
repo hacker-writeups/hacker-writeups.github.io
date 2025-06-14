@@ -1,6 +1,6 @@
 [
   {
-    "title": "Shodan Dorking for Hackers: Easy CVEs and How I Found Them",
+    "title": "Account Takeover via Facebook OAuth Misconfiguration",
     "description": "VDP",
     "url": "https://medium.com/@elghzaly/account-takeover-via-facebook-oauth-misconfiguration-f5eb1a943873",
     "tags": ["Bug Bounty","Bounty"],
