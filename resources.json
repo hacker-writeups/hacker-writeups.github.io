@@ -3,7 +3,7 @@
     "title": "Account Takeover via Facebook OAuth Misconfiguration",
     "description": "VDP",
     "url": "https://medium.com/@elghzaly/account-takeover-via-facebook-oauth-misconfiguration-f5eb1a943873",
-    "tags": ["Bug Bounty","Bounty"],
+    "tags": ["Bug Bounty","Bounty","BugCrowd"],
     "author": "Kabi_777",
     "date": "2025-06-15"
   },
@@ -131,7 +131,7 @@
     "title": "Bug Bounty — Mail Injection",
     "description": "-",
     "url": "https://medium.com/@zatikyan.sevada/bug-bounty-mail-injection-6ec9ffefc24b",
-    "tags": ["Bug Bounty", "Bounty","Injection"],
+    "tags": ["Bug Bounty", "Bounty"],
     "author": "Sevada797",
     "date": "2025-05-29"
   },
