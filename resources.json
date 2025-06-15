@@ -8,6 +8,14 @@
     "date": "2025-06-14"
   },
   {
+    "title": "Account Takeover via Facebook OAuth Misconfiguration",
+    "description": "VDP",
+    "url": "https://medium.com/@elghzaly/account-takeover-via-facebook-oauth-misconfiguration-f5eb1a943873",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Ahmed Elghazaly",
+    "date": "2025-06-14"
+  },
+  {
     "title": "Shodan Dorking for Hackers: Easy CVEs and How I Found Them",
     "description": "-",
     "url": "https://medium.com/@a0xtrojan/how-i-used-shodan-dork-to-discover-2-easy-bugs-cves-ecf6c56e7075",
