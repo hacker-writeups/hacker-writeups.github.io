@@ -195,7 +195,7 @@
     "title": "Reflected Chaos: How One XSS Vector Spawned Three CVEs",
     "description": "-",
     "url": "https://medium.com/@bonghaxor_34691/reflected-chaos-how-one-xss-vector-spawned-three-cves-f20e2df3275f",
-    "tags": ["Bug Bounty", "CVE","XSS"],
+    "tags": ["Bug Bounty","XSS"],
     "author": "Written by BongHaxor",
     "date": "2025-05-22"
   },
