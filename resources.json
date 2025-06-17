@@ -8,6 +8,14 @@
     "date": "2025-06-16"
   },
   {
+    "title": "How I Chained Recon and IDOR to Access 100's of Credit Cards",
+    "description": "Bounty - $XXX",
+    "url": "https://medium.com/@XCriminal/how-i-chained-recon-and-idor-to-access-100s-of-credit-cards-0ca50eb82a74",
+    "tags": ["Bug Bounty","Bounty","BugCrowd"],
+    "author": "Bhagavan Bollina",
+    "date": "2025-06-16"
+  },
+  {
     "title": "🔴Bypass IP Whitelisting by Abusing Trusted Flows",
     "description": "Bounty - $XXX",
     "url": "https://medium.com/@kabi_777/bbp-how-i-bypass-ip-whitelisting-by-abusing-trusted-flows-069f1aa415c0",
