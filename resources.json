@@ -1,6 +1,6 @@
 [
   {
-    "title": "How I Chained Recon and IDOR to Access 100's of Credit Cards",
+    "title": "How a Simple Redirect Led to a $550 XSS Vulnerability",
     "description": "-",
     "url": "https://ehteshamulhaq198.medium.com/how-a-simple-redirect-led-to-a-550-xss-vulnerability-b3e0ff045607",
     "tags": ["Bug Bounty","Bounty"],
