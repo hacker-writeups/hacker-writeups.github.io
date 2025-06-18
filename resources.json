@@ -1,6 +1,6 @@
 [
   {
-    "title": "How a Simple Redirect Led to a $550 XSS Vulnerability",
+    "title": "My First P1 on VDP program — Subdomain Takeover That Hit Critical",
     "description": "VDP",
     "url": "https://ousski.medium.com/my-first-p1-on-vdp-program-subdomain-takeover-that-hit-critical-c043565eb469",
     "tags": ["Bug Bounty","Bounty"],
