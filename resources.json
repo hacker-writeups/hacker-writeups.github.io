@@ -1,5 +1,13 @@
 [
   {
+    "title": "How I Used the js.map File to Gain Admin Access",
+    "description": "-",
+    "url": "https://cyphernova1337.medium.com/how-i-used-the-js-map-file-to-gain-admin-access-e30e6f00adb7",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "CypherNova1337",
+    "date": "2025-07-03"
+  },
+  {
     "title": "My First P1 on VDP program — Subdomain Takeover That Hit Critical",
     "description": "VDP",
     "url": "https://ousski.medium.com/my-first-p1-on-vdp-program-subdomain-takeover-that-hit-critical-c043565eb469",
