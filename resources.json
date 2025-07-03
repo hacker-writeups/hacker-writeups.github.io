@@ -1,5 +1,13 @@
 [
   {
+    "title": "How i Found Pre Account Takeover in 3 Minutes",
+    "description": "-",
+    "url": "https://medium.com/legionhunters/how-i-found-pre-account-takeover-in-3-minutes-32bcdce9f3e6",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Mado",
+    "date": "2025-07-03"
+  },
+  {
     "title": "How I Used the js.map File to Gain Admin Access",
     "description": "-",
     "url": "https://cyphernova1337.medium.com/how-i-used-the-js-map-file-to-gain-admin-access-e30e6f00adb7",
