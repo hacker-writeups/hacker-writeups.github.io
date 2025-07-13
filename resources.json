@@ -1,5 +1,13 @@
 [
   {
+    "title": "From Blind XSS to RCE: When Headers Became My Terminal",
+    "description": "Bounty - $$$",
+    "url": "https://is4curity.medium.com/from-blind-xss-to-rce-when-headers-became-my-terminal-d137d2c808a3",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Mahmoud El Manzalawy",
+    "date": "2025-07-13"
+  },
+  {
     "title": "How i Found Pre Account Takeover in 3 Minutes",
     "description": "-",
     "url": "https://medium.com/legionhunters/how-i-found-pre-account-takeover-in-3-minutes-32bcdce9f3e6",
