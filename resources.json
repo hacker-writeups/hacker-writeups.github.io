@@ -1,5 +1,13 @@
 [
   {
+    "title": "BAC (Authorization Bypass Allows Former Owner to Add Teachers After Role Downgrade)",
+    "description": "Bounty - $$$",
+    "url": "https://medium.com/@HBlackGhost/bac-authorization-bypass-allows-former-owner-to-add-teachers-after-role-downgrade-d346fc051fca",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "HBlack Ghost",
+    "date": "2025-07-13"
+  },
+  {
     "title": "From Blind XSS to RCE: When Headers Became My Terminal",
     "description": "Bounty - $$$",
     "url": "https://is4curity.medium.com/from-blind-xss-to-rce-when-headers-became-my-terminal-d137d2c808a3",
