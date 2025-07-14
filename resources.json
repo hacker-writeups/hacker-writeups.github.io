@@ -1,5 +1,13 @@
 [
   {
+    "title": "🔓 How I Discovered an Open Redirect Using X-Forwarded-Host – A Bug Bounty Story with Real-World Impact",
+    "description": "Bounty - $$$",
+    "url": "https://levi4.medium.com/how-i-discovered-an-open-redirect-using-x-forwarded-host-a-bug-bounty-story-with-real-world-792d66eaffff",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Levi Ackerman",
+    "date": "2025-07-14"
+  },
+  {
     "title": "BAC (Authorization Bypass Allows Former Owner to Add Teachers After Role Downgrade)",
     "description": "Bounty - $$$",
     "url": "https://medium.com/@HBlackGhost/bac-authorization-bypass-allows-former-owner-to-add-teachers-after-role-downgrade-d346fc051fca",
