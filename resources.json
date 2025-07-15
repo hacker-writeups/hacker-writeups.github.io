@@ -1,5 +1,13 @@
 [
   {
+    "title": "5000$ |Broken Access Control Let Me Delete Other Users’ Tasklists (ZVE-2025–2842)",
+    "description": "Bounty - $$$",
+    "url": "https://levi4.medium.com/how-i-discovered-an-open-redirect-using-x-forwarded-host-a-bug-bounty-story-with-real-world-792d66eaffff",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Levi Ackerman",
+    "date": "2025-07-14"
+  },
+  {
     "title": "🔓 How I Discovered an Open Redirect Using X-Forwarded-Host – A Bug Bounty Story with Real-World Impact",
     "description": "Bounty - $$$",
     "url": "https://levi4.medium.com/how-i-discovered-an-open-redirect-using-x-forwarded-host-a-bug-bounty-story-with-real-world-792d66eaffff",
