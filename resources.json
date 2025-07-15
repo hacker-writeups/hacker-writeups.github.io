@@ -1,7 +1,7 @@
 [
   {
     "title": "5000$ |Broken Access Control Let Me Delete Other Users’ Tasklists (ZVE-2025–2842)",
-    "description": "Bounty - $5000",
+    "description": "Duplicate",
     "url": "https://spidergk.medium.com/inconsistent-session-logout-after-enabling-2fa-on-epic-games-a-high-impact-flaw-explained-2a2ff36c3a3b",
     "tags": ["Bug Bounty","Bounty"],
     "author": "Gourav(spidergk)",
