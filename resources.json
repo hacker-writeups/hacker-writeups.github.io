@@ -8,6 +8,14 @@
     "date": "2025-07-15"
   },
   {
+    "title": "Inconsistent Session Logout After Enabling 2FA on Epic Games — A High-Impact Flaw Explained",
+    "description": "Duplicate",
+    "url": "https://spidergk.medium.com/inconsistent-session-logout-after-enabling-2fa-on-epic-games-a-high-impact-flaw-explained-2a2ff36c3a3b",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Gourav(spidergk)",
+    "date": "2025-07-15"
+  },
+  {
     "title": "5000$ |Broken Access Control Let Me Delete Other Users’ Tasklists (ZVE-2025–2842)",
     "description": "Bounty - $5000",
     "url": "https://medium.com/@aminefarah802/broken-access-control-let-me-delete-other-users-tasklists-zve-2025-2842-717dced47b0a",
