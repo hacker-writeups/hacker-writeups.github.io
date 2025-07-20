@@ -1,5 +1,13 @@
 [
   {
+    "title": "$1000 Bounty: From 403 to Source Code",
+    "description": "Bounty - $1000",
+    "url": "https://osintteam.blog/1000-bounty-from-403-to-source-code-28e9a9c572d8",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Monika sharma",
+    "date": "2025-07-20"
+  },
+  {
     "title": "$300 Bounty: Limited LFI via Markdown in GSA Dashboard",
     "description": "Bounty - $300",
     "url": "https://medium.com/h7w/300-bounty-limited-lfi-via-markdown-in-gsa-dashboard-34aee1b2de23",
