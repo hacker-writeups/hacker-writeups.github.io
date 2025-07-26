@@ -1,5 +1,13 @@
 [
   {
+    "title": "🕳️ How I Found an Unauthenticated GraphQL Data Exposure and got 0$ for it",
+    "description": "Bounty - $0",
+    "url": "https://medium.com/@77r4sed/%EF%B8%8F-how-i-found-an-unauthenticated-graphql-data-exposure-and-got-0-for-it-edfb07bf72a8",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "77r4sed",
+    "date": "2025-07-26"
+  },
+  {
     "title": "$1000 Bounty: From 403 to Source Code",
     "description": "Bounty - $1000",
     "url": "https://osintteam.blog/1000-bounty-from-403-to-source-code-28e9a9c572d8",
