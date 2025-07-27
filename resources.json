@@ -1,5 +1,13 @@
 [
   {
+    "title": "$1000 Bounty: Reset any password",
+    "description": "Bounty - $1000",
+    "url": "https://medium.com/h7w/1000-bounty-reset-any-password-474606e18441",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Monika sharma",
+    "date": "2025-07-27"
+  },
+  {
     "title": "How I Gained ROOT Access to a Hosting Provider",
     "description": "Bounty - Unknown",
     "url": "https://kkonann.medium.com/i-got-root-access-to-a-hosting-provider-without-a-single-exploit-c6af4185dc54",
