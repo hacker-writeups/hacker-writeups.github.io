@@ -1,5 +1,13 @@
 [
   {
+    "title": "From Exposed API Key to Arbitrary Account Creation: A GraphQL Bug Bounty Walkthrough",
+    "description": "",
+    "url": "https://medium.com/@drizzlehx/from-exposed-api-key-to-arbitrary-account-creation-a-graphql-bug-bounty-walkthrough-af0d26accab3",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Utkarsh Srivastava",
+    "date": "2025-07-31"
+  },
+  {
     "title": "🎯 Hall of Fame: Open Redirect Vulnerability in Ericsson Job Portal",
     "description": "",
     "url": "https://spidergk.medium.com/hall-of-fame-open-redirect-vulnerability-in-ericsson-job-portal-7f9a2e77bd77",
