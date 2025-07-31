@@ -1,5 +1,13 @@
 [
   {
+    "title": "Privilege Escalation: From User to Admin",
+    "description": "",
+    "url": "https://medium.com/@0298muneezabadar/privilege-escalation-from-user-to-admin-22befa6f1f9c",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Muniza Badar",
+    "date": "2025-07-31"
+  },
+  {
     "title": "$1000 Bounty: Reset any password",
     "description": "Bounty - $1000",
     "url": "https://medium.com/h7w/1000-bounty-reset-any-password-474606e18441",
