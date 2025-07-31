@@ -1,5 +1,13 @@
 [
   {
+    "title": "🎯 Hall of Fame: Open Redirect Vulnerability in Ericsson Job Portal",
+    "description": "",
+    "url": "https://spidergk.medium.com/hall-of-fame-open-redirect-vulnerability-in-ericsson-job-portal-7f9a2e77bd77",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Gourav(spidergk)",
+    "date": "2025-07-31"
+  },
+  {
     "title": "Privilege Escalation: From User to Admin",
     "description": "",
     "url": "https://medium.com/@0298muneezabadar/privilege-escalation-from-user-to-admin-22befa6f1f9c",
