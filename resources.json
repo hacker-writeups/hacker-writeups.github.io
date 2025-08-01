@@ -1,5 +1,13 @@
 [
   {
+    "title": "How I got RCE on redbull from recon (CVE-2025–30406)",
+    "description": "Bounty - $$$$",
+    "url": "https://mchklt.medium.com/how-i-got-rce-on-redbull-from-recon-cve-2025-30406-f0e702d131ce",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "ABDELKARIM MOUCHQUELITA",
+    "date": "2025-08-01"
+  },
+  {
     "title": "From Exposed API Key to Arbitrary Account Creation: A GraphQL Bug Bounty Walkthrough",
     "description": "",
     "url": "https://medium.com/@drizzlehx/from-exposed-api-key-to-arbitrary-account-creation-a-graphql-bug-bounty-walkthrough-af0d26accab3",
