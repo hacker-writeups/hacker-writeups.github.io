@@ -1,5 +1,13 @@
 [
   {
+    "title": "Uncovering SQL Injection",
+    "description": "Bounty - $$$$",
+    "url": "https://medium.com/@0x0mahmoud/uncovering-sql-injection-db784a309b48",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "0X0mahmoud",
+    "date": "2025-08-04"
+  },
+  {
     "title": "How I got RCE on redbull from recon (CVE-2025–30406)",
     "description": "Bounty - $$$$",
     "url": "https://mchklt.medium.com/how-i-got-rce-on-redbull-from-recon-cve-2025-30406-f0e702d131ce",
@@ -376,3 +384,4 @@
     "date": "2025-05-17"
   }
 ]
+
