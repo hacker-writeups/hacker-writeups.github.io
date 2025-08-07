@@ -1,5 +1,13 @@
 [
   {
+    "title": "How a Broken Facebook Link Let Me Hijack User Traffic",
+    "description": "Bounty - $275",
+    "url": "https://medium.com/@vaaditya320/how-a-broken-facebook-link-let-me-hijack-user-traffic-twice-79caa1710f6c",
+    "tags": ["Bug Bounty","Bounty","HackerOne"],
+    "author": "vaaditya320",
+    "date": "2025-08-07"
+  },
+  {
     "title": "Uncovering SQL Injection",
     "description": "Bounty - $$$$",
     "url": "https://medium.com/@0x0mahmoud/uncovering-sql-injection-db784a309b48",
@@ -384,4 +392,5 @@
     "date": "2025-05-17"
   }
 ]
+
 
