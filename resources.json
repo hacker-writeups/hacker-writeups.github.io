@@ -1,5 +1,13 @@
 [
   {
+    "title": "Day 4: IDOR — How I Hacked a Dating App & Accessed Every User’s Private Data",
+    "description": "-",
+    "url": "https://infosecwriteups.com/day-4-idor-how-i-hacked-a-dating-app-accessed-every-users-private-data-b59a485f455f",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Aman Sharma",
+    "date": "2025-08-07"
+  },
+  {
     "title": "How a Broken Facebook Link Let Me Hijack User Traffic",
     "description": "Bounty - $275",
     "url": "https://medium.com/@vaaditya320/how-a-broken-facebook-link-let-me-hijack-user-traffic-twice-79caa1710f6c",
@@ -392,5 +400,6 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
