@@ -1,5 +1,13 @@
 [
   {
+    "title": "How I bypass CSP sandbox and find Stored XSS",
+    "description": "Duplicate",
+    "url": "https://l4zyhacker.medium.com/how-i-bypass-csp-sandbox-and-find-stored-xss-7bb2b5795554",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "L4zyhacker",
+    "date": "2025-08-11"
+  },
+  {
     "title": "Day 4: IDOR — How I Hacked a Dating App & Accessed Every User’s Private Data",
     "description": "-",
     "url": "https://infosecwriteups.com/day-4-idor-how-i-hacked-a-dating-app-accessed-every-users-private-data-b59a485f455f",
@@ -400,6 +408,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
