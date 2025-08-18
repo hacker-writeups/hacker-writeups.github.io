@@ -1,4 +1,12 @@
 [
+   {
+    "title": "$500 Bounty: How a Logic Flaw Allowed Silent Logins in a Financial Application",
+    "description": "Bounty - $500",
+    "url": "https://medium.com/@luq0x/how-a-logic-flaw-allowed-silent-logins-in-a-financial-application-5eed48939018",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "luq0x",
+    "date": "2025-08-18"
+  },
   {
     "title": "How I bypass CSP sandbox and find Stored XSS",
     "description": "Duplicate",
@@ -408,6 +416,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
