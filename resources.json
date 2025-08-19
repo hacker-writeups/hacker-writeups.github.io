@@ -1,5 +1,13 @@
 [
    {
+    "title": "Gitlab XSS Using json:table Markdown — Worth $13,950 — Commit Page",
+    "description": "Bounty - $13,950",
+    "url": "https://medium.com/@justas_b1/gitlab-xss-using-json-table-markdown-worth-13-950-commits-page-93104473620e",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Justas_b",
+    "date": "2025-08-19"
+  },
+   {
     "title": "$500 Bounty: How a Logic Flaw Allowed Silent Logins in a Financial Application",
     "description": "Bounty - $500",
     "url": "https://medium.com/@luq0x/how-a-logic-flaw-allowed-silent-logins-in-a-financial-application-5eed48939018",
@@ -416,6 +424,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
