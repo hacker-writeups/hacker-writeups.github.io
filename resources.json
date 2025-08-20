@@ -1,5 +1,13 @@
 [
    {
+    "title": "Easiest Admin Panel Takeover",
+    "description": "Bounty - $$$$",
+    "url": "https://osintteam.blog/easiest-admin-panel-takeover-d9e2c5ef321e",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "TSxNINJA",
+    "date": "2025-08-20"
+  },
+   {
     "title": "Gitlab XSS Using json:table Markdown — Worth $13,950 — Commit Page",
     "description": "Bounty - $13,950",
     "url": "https://medium.com/@justas_b1/gitlab-xss-using-json-table-markdown-worth-13-950-commits-page-93104473620e",
@@ -424,6 +432,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
