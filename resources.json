@@ -1,5 +1,13 @@
 [
    {
+    "title": "JWT Bugs and the Dot That Changed Everything ⚔️",
+    "description": "Bounty - $$$%",
+    "url": "https://soltanali0.medium.com/jwt-bugs-and-the-dot-that-changed-everything-%EF%B8%8F-50a0bc31fd66",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "soltanali0",
+    "date": "2025-08-21"
+  },
+   {
     "title": "Easiest Admin Panel Takeover",
     "description": "Bounty - $$$$",
     "url": "https://osintteam.blog/easiest-admin-panel-takeover-d9e2c5ef321e",
@@ -432,6 +440,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
