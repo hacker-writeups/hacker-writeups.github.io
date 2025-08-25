@@ -1,5 +1,13 @@
 [
    {
+    "title": "HTML Injection, CSP Roadblocks & a $100 Win",
+    "description": "Bounty - $100",
+    "url": "https://sarv3shxploit.medium.com/html-injection-csp-roadblocks-a-100-win-d6abf1ca986e",
+    "tags": ["Bug Bounty","Bounty","HackerOne"],
+    "author": "Sarv3shxploit",
+    "date": "2025-08-25"
+  },
+   {
     "title": "JWT Bugs and the Dot That Changed Everything ⚔️",
     "description": "Bounty - $$$%",
     "url": "https://soltanali0.medium.com/jwt-bugs-and-the-dot-that-changed-everything-%EF%B8%8F-50a0bc31fd66",
@@ -440,6 +448,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
