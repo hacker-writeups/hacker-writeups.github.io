@@ -1,5 +1,13 @@
 [
    {
+    "title": "The Thousand Dollar Bug",
+    "description": "Bounty - $1400",
+    "url": "https://medium.com/@RaunakGupta1922/the-thousand-dollar-bug-07955ff2ba57",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Raunak Gupta Aka Biscuit",
+    "date": "2025-08-26"
+  },
+   {
     "title": "HTML Injection, CSP Roadblocks & a $100 Win",
     "description": "Bounty - $100",
     "url": "https://sarv3shxploit.medium.com/html-injection-csp-roadblocks-a-100-win-d6abf1ca986e",
@@ -448,6 +456,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
