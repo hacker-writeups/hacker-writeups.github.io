@@ -1,5 +1,13 @@
 [
    {
+    "title": "How a Misconfigured API Endpoint Helped Me Earn a $$$ Bounty",
+    "description": "Bounty - $$$$",
+    "url": "https://medium.com/@r3dd404/how-a-misconfigured-api-endpoint-helped-me-earn-a-bounty-0a6d54c46c2d",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "R3DD",
+    "date": "2025-08-27"
+  },
+   {
     "title": "The Thousand Dollar Bug",
     "description": "Bounty - $1400",
     "url": "https://medium.com/@RaunakGupta1922/the-thousand-dollar-bug-07955ff2ba57",
@@ -456,6 +464,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
