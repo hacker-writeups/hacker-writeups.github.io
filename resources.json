@@ -1,5 +1,13 @@
 [
    {
+    "title": "How I Found a Critical Password Reset Bug in the BB program(and Got $4,000)",
+    "description": "Bounty - $4,000",
+    "url": "https://medium.com/@s41n1k/how-i-found-a-critical-password-reset-bug-in-the-bb-program-and-got-4-000-a22fffe285e1",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Imran Hossain",
+    "date": "2025-08-27"
+  },
+   {
     "title": "How a Misconfigured API Endpoint Helped Me Earn a $$$ Bounty",
     "description": "Bounty - $$$$",
     "url": "https://medium.com/@r3dd404/how-a-misconfigured-api-endpoint-helped-me-earn-a-bounty-0a6d54c46c2d",
@@ -464,6 +472,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
