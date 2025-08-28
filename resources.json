@@ -1,5 +1,13 @@
 [
    {
+    "title": "Weak Rate Limiting & Password Oracle in Change Email Endpoint Got me bounty reward.",
+    "description": "Bounty - $32",
+    "url": "https://medium.com/@ch1ta/weak-rate-limiting-password-oracle-in-change-email-endpoint-got-me-bounty-reward-15de040a656f",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Lakshya",
+    "date": "2025-08-28"
+  },
+   {
     "title": "How I Found a Critical Password Reset Bug in the BB program(and Got $4,000)",
     "description": "Bounty - $4,000",
     "url": "https://medium.com/@s41n1k/how-i-found-a-critical-password-reset-bug-in-the-bb-program-and-got-4-000-a22fffe285e1",
@@ -472,6 +480,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
