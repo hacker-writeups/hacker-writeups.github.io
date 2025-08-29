@@ -1,5 +1,13 @@
 [
    {
+    "title": "Simple IDOR Led to PII & Passport Leaks (and a $1,000 Bounty)",
+    "description": "Bounty - $1000",
+    "url": "https://medium.com/@theteatoast/simple-idor-led-to-pii-passport-leaks-and-a-1-000-bounty-e3e453a519ec",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "toast",
+    "date": "2025-08-29"
+  },
+   {
     "title": "Weak Rate Limiting & Password Oracle in Change Email Endpoint Got me bounty reward.",
     "description": "Bounty - $32",
     "url": "https://medium.com/@ch1ta/weak-rate-limiting-password-oracle-in-change-email-endpoint-got-me-bounty-reward-15de040a656f",
@@ -480,6 +488,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
