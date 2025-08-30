@@ -1,5 +1,13 @@
 [
    {
+    "title": "🌐 Recon Renaissance: How a Single Subdomain Led Me to a Goldmine of Bugs",
+    "description": "Bounty - $$$",
+    "url": "https://medium.com/@iski/recon-renaissance-how-a-single-subdomain-led-me-to-a-goldmine-of-bugs-2ac699366cd5",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Iski",
+    "date": "2025-08-30"
+  },
+   {
     "title": "Simple IDOR Led to PII & Passport Leaks (and a $1,000 Bounty)",
     "description": "Bounty - $1000",
     "url": "https://medium.com/@theteatoast/simple-idor-led-to-pii-passport-leaks-and-a-1-000-bounty-e3e453a519ec",
@@ -488,6 +496,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
