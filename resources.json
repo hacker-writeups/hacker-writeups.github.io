@@ -1,5 +1,13 @@
 [
    {
+    "title": "My Experience of Hacking Dutch Government (DNS Hijacking)",
+    "description": "Bounty - SWAG",
+    "url": "https://nahid0x1.medium.com/my-experience-of-hacking-dutch-government-dns-hijacking-d25239af5500",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Md Nahid Alam",
+    "date": "2025-09-01"
+  },
+   {
     "title": "🌐 Recon Renaissance: How a Single Subdomain Led Me to a Goldmine of Bugs",
     "description": "Bounty - $$$",
     "url": "https://medium.com/@iski/recon-renaissance-how-a-single-subdomain-led-me-to-a-goldmine-of-bugs-2ac699366cd5",
@@ -496,6 +504,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
