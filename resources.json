@@ -1,5 +1,13 @@
 [
    {
+    "title": "A Critical Zero-Day in Atlassian Jira Service Management Cloud: Password Reset Account Takeover",
+    "description": "Bounty - $10,000",
+    "url": "https://medium.com/@MoSalah11/a-critical-zero-day-in-atlassian-jira-service-management-cloud-password-reset-account-takeover-1903cbb8bd31",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Mo Salah",
+    "date": "2025-09-02"
+  },
+   {
     "title": "My Experience of Hacking Dutch Government (DNS Hijacking)",
     "description": "Bounty - SWAG",
     "url": "https://nahid0x1.medium.com/my-experience-of-hacking-dutch-government-dns-hijacking-d25239af5500",
@@ -504,6 +512,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
