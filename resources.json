@@ -1,5 +1,13 @@
 [
    {
+    "title": "From Manage Members to Full Admin: Privilege Escalation in a GraphQL API",
+    "description": "Informative",
+    "url": "https://medium.com/@bassemwanies2002/from-manage-members-to-full-admin-privilege-escalation-in-a-graphql-api-b58699829d6e",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Bassemwanies",
+    "date": "2025-09-03"
+  },
+   {
     "title": "A Critical Zero-Day in Atlassian Jira Service Management Cloud: Password Reset Account Takeover",
     "description": "Bounty - $10,000",
     "url": "https://medium.com/@MoSalah11/a-critical-zero-day-in-atlassian-jira-service-management-cloud-password-reset-account-takeover-1903cbb8bd31",
@@ -512,6 +520,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
