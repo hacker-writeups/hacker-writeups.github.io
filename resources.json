@@ -1,5 +1,13 @@
 [
    {
+    "title": "💰 This Clickjacking Bug Was Worth $140 – Here’s How",
+    "description": "Bounty - $140",
+    "url": "https://medium.com/@manav_24/this-clickjacking-bug-was-worth-140-heres-how-8da607927f62",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Manav",
+    "date": "2025-09-05"
+  },
+   {
     "title": "From Manage Members to Full Admin: Privilege Escalation in a GraphQL API",
     "description": "Informative",
     "url": "https://medium.com/@bassemwanies2002/from-manage-members-to-full-admin-privilege-escalation-in-a-graphql-api-b58699829d6e",
@@ -520,6 +528,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
