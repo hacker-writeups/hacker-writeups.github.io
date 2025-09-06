@@ -1,4 +1,12 @@
 [
+    {
+    "title": "How I Found Broken Access Control -Then I Stopped Hunting",
+    "description": "Bounty - Duplicate",
+    "url": "https://infosecwriteups.com/how-i-found-broken-access-control-then-i-stopped-hunting-a48187e8702a",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Umanhonlen Gabriel",
+    "date": "2025-09-06"
+  },
    {
     "title": "💰 This Clickjacking Bug Was Worth $140 – Here’s How",
     "description": "Bounty - $140",
@@ -528,6 +536,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
