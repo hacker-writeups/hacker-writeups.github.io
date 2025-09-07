@@ -1,4 +1,12 @@
 [
+     {
+    "title": "Stored XSS with Cloudflare WAF Bypass",
+    "description": "Bounty - $$$",
+    "url": "https://hexaphp.medium.com/stored-xss-with-cloudflare-waf-bypass-420c99aba97b",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "hexaphp",
+    "date": "2025-09-07"
+  },
     {
     "title": "How I Found Broken Access Control -Then I Stopped Hunting",
     "description": "Bounty - Duplicate",
@@ -536,6 +544,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
