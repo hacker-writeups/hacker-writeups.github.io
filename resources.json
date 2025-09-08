@@ -1,5 +1,13 @@
 [
      {
+    "title": "How I Found a High-Severity IDOR Without Using Any Proxy Tools",
+    "description": "Bounty - Unknown",
+    "url": "https://medium.com/@yusufabdulkadir74/how-i-found-a-high-severity-idor-without-using-any-proxy-tools-8a6d2d09efc7",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Yusuf",
+    "date": "2025-09-08"
+  },
+     {
     "title": "Stored XSS with Cloudflare WAF Bypass",
     "description": "Bounty - $$$",
     "url": "https://hexaphp.medium.com/stored-xss-with-cloudflare-waf-bypass-420c99aba97b",
@@ -544,6 +552,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
