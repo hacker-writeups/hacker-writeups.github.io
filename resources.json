@@ -1,5 +1,13 @@
 [
      {
+    "title": "Case-Sensitivity Display name is worth 150$ bounty",
+    "description": "Bounty - $150",
+    "url": "https://medium.com/@mohaned0101/case-sensitivity-display-name-is-worth-150-bounty-6871aab8a39c",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "mohaned haron",
+    "date": "2025-09-12"
+  },
+     {
     "title": "How I Found a High-Severity IDOR Without Using Any Proxy Tools",
     "description": "Bounty - Unknown",
     "url": "https://medium.com/@yusufabdulkadir74/how-i-found-a-high-severity-idor-without-using-any-proxy-tools-8a6d2d09efc7",
@@ -552,6 +560,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
