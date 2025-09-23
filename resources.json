@@ -1,5 +1,13 @@
 [
   {
+    "title": "My First Bug: Email Enumeration via Password Reset",
+    "description": "Bounty - $875",
+    "url": "https://medium.com/@zouhairake/my-first-bug-email-enumeration-via-password-reset-9a6341a9fff3",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Zouhair Ake",
+    "date": "2025-09-23"
+  },
+  {
     "title": "The Hidden Path to an HP Printer: A Real-World Discovery 🔍",
     "description": "Bounty - $875",
     "url": "https://infosecwriteups.com/the-hidden-path-to-an-hp-printer-a-real-world-discovery-4b05187a8271",
@@ -584,6 +592,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
