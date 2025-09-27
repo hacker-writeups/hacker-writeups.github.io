@@ -1,5 +1,13 @@
 [
   {
+    "title": "When “1+1” became $650 - Escaping a Sandbox in Groovy",
+    "description": "Bounty - $650",
+    "url": "https://0x1git.medium.com/groovy-sandbox-escape-reading-files-via-classloader-650-bounty-story-8183ef9a332c",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "0x1git",
+    "date": "2025-09-27"
+  },
+  {
     "title": "My First Bug: Email Enumeration via Password Reset",
     "description": "Bounty - $$$",
     "url": "https://medium.com/@zouhairake/my-first-bug-email-enumeration-via-password-reset-9a6341a9fff3",
@@ -592,6 +600,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
