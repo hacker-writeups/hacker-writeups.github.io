@@ -1,5 +1,13 @@
 [
   {
+    "title": "Race Condition - Login Rate Limit Bypass",
+    "description": "Bounty - $$$$",
+    "url": "https://medium.com/@hossammostafa2003.1.1/-ef8525ff4cb8",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Hossam_Mostafa",
+    "date": "2025-09-29"
+  },
+  {
     "title": "When “1+1” became $650 - Escaping a Sandbox in Groovy",
     "description": "Bounty - $650",
     "url": "https://0x1git.medium.com/groovy-sandbox-escape-reading-files-via-classloader-650-bounty-story-8183ef9a332c",
@@ -600,6 +608,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
