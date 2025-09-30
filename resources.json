@@ -1,5 +1,13 @@
 [
   {
+    "title": "How I Got $$$ For Token Based Rate limit Bypass",
+    "description": "Bounty - $$$",
+    "url": "https://medium.com/@test123cybertest/how-i-got-for-token-based-rate-limit-bypass-4841bbb3051c",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "praveenarsh0xx0",
+    "date": "2025-09-30"
+  },
+  {
     "title": "Race Condition - Login Rate Limit Bypass",
     "description": "Bounty - $$$$",
     "url": "https://medium.com/@hossammostafa2003.1.1/-ef8525ff4cb8",
@@ -608,6 +616,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
