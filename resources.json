@@ -1,5 +1,13 @@
 [
   {
+    "title": "🛠️ The Day I Found a phpinfo() Page Exposed in Production — And Why It Was Worth More Than $200",
+    "description": "Bounty - $200",
+    "url": "https://medium.com/@anshubind89/%EF%B8%8F-the-day-i-found-a-phpinfo-page-exposed-in-production-and-why-it-was-worth-more-than-200-1e6c902e1f4a",
+    "tags": ["Bug Bounty","Bounty"],
+    "author": "Anshubind",
+    "date": "2025-12-08"
+  },
+  {
     "title": "How I Got $$$ For Token Based Rate limit Bypass",
     "description": "Bounty - $$$",
     "url": "https://medium.com/@test123cybertest/how-i-got-for-token-based-rate-limit-bypass-4841bbb3051c",
@@ -616,6 +624,7 @@
     "date": "2025-05-17"
   }
 ]
+
 
 
 
