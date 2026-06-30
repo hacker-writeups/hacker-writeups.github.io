@@ -1,0 +1,1069 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hacker Write-Ups — Community-curated CTF write-ups, vulnerability research, and security analysis from top hackers around the world."
+    />
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon" />
+    <title>Hacker Write-Ups</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav id="navbar">
+      <div class="nav-inner">
+        <a href="#" class="nav-logo" onclick="return showPage('home');">
+          <div class="logo-icon">H</div>
+          Hacker<span class="accent">Write-Ups</span>
+        </a>
+        <ul class="nav-links">
+          <li>
+            <a
+              href="#"
+              class="nav-link active"
+              data-page="home"
+              onclick="return showPage('home');"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="nav-link"
+              data-page="writeups"
+              onclick="return showPage('writeups');"
+              >Write-Ups</a
+            >
+          </li>
+          <!-- <li>
+            <a
+              href="#"
+              class="nav-link"
+              data-page="sponsors"
+              onclick="return showPage('sponsors');"
+              >Sponsors</a
+            >
+          </li> -->
+          <li>
+            <a
+              href="#"
+              class="nav-link"
+              data-page="about"
+              onclick="return showPage('about');"
+              >About</a
+            >
+          </li>
+        </ul>
+        <div class="nav-right">
+          <button
+            class="theme-toggle"
+            onclick="toggleTheme()"
+            title="Toggle theme"
+            id="themeBtn"
+          >
+            ☀️
+          </button>
+          <a
+            href="#"
+            class="btn-submit-nav"
+            onclick="return showPage('submit');"
+            >Submit Write-Up</a
+          >
+          <button
+            class="hamburger"
+            onclick="toggleMobile()"
+            aria-label="Toggle menu"
+            id="hamburgerBtn"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <div class="mobile-menu" id="mobileMenu">
+        <a
+          href="#"
+          onclick="
+            showPage('home');
+            toggleMobile();
+          "
+          >🏠 Home</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('writeups');
+            toggleMobile();
+          "
+          >📄 Write-Ups</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('sponsors');
+            toggleMobile();
+          "
+          >💎 Sponsors</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('about');
+            toggleMobile();
+          "
+          >ℹ️ About</a
+        >
+        <a
+          href="#"
+          onclick="
+            showPage('submit');
+            toggleMobile();
+          "
+          >✉️ Submit Write-Up</a
+        >
+      </div>
+    </nav>
+
+    <!-- ==================== HOME PAGE ==================== -->
+    <section class="page active" id="page-home">
+      <!-- Hero -->
+      <div class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <div class="hero-badge">Try to help the community</div>
+          <h1>
+            The Best Hacker<br /><span class="accent">Write-Ups</span> in One
+            Place
+          </h1>
+          <p>
+            Discover Bug Bounty write-ups, CTF solutions, and security research
+            from top hackers worldwide. Learn from real-world examples and
+            improve your skills.
+          </p>
+          <div class="hero-btns">
+            <button class="btn-primary" onclick="showPage('writeups')">
+              Browse Write-Ups →
+            </button>
+            <button class="btn-secondary" onclick="showPage('submit')">
+              Submit Your Write-Up
+            </button>
+          </div>
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="num" id="statTotal">—</span
+              ><span class="label">Write-Ups</span>
+            </div>
+            <div class="stat">
+              <span class="num">10+</span><span class="label">Authors</span>
+            </div>
+            <div class="stat">
+              <span class="num">8+</span><span class="label">Categories</span>
+            </div>
+            <div class="stat">
+              <span class="num">0+</span
+              ><span class="label">Monthly Readers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Featured write-up (injected by JS) -->
+      <div class="container" style="margin-top: 3rem">
+        <div id="homeFeatured">
+          <div class="loading-indicator">
+            <div class="spinner"></div>
+            Loading featured write-up…
+          </div>
+        </div>
+
+        <div class="section-header">
+          <h2 class="section-title">Latest <span>Write-Ups</span></h2>
+          <button
+            class="btn-secondary"
+            onclick="showPage('writeups')"
+            style="padding: 0.45rem 1.1rem; font-size: 0.85rem"
+          >
+            View All →
+          </button>
+        </div>
+        <div class="articles-grid" id="homeGrid"></div>
+      </div>
+
+      <!-- Categories -->
+      <div class="container" style="margin: 1.5rem auto 3rem">
+        <div class="section-header">
+          <h2 class="section-title">Browse by <span>Category</span></h2>
+        </div>
+        <div
+          style="
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+            gap: 1rem;
+          "
+          id="categoriesGrid"
+        ></div>
+      </div>
+    </section>
+
+    <!-- ==================== WRITE-UPS PAGE ==================== -->
+    <section class="page" id="page-writeups">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">All <span>Write-Ups</span></h2>
+          <span
+            style="font-size: 0.85rem; color: var(--text-muted)"
+            id="resultsCount"
+          ></span>
+        </div>
+
+        <div class="search-box">
+          <div class="search-wrap">
+            <span class="search-icon"></span>
+            <input
+              type="text"
+              class="search-input"
+              id="searchInput"
+              placeholder="Search write-ups, authors, tags…"
+              oninput="filterArticles()"
+            />
+          </div>
+          <select
+            class="sort-select"
+            id="sortSelect"
+            onchange="filterArticles()"
+          >
+            <option value="newest">Newest First</option>
+            <option value="oldest">Oldest First</option>
+            <option value="az">A–Z</option>
+            <option value="za">Z–A</option>
+          </select>
+        </div>
+
+        <div class="filters-bar" id="filtersBar"></div>
+        <div class="articles-grid" id="articlesGrid"></div>
+
+        <div class="empty-state" id="emptyState" style="display: none">
+          <div class="icon">🔍</div>
+          <p>No write-ups found. Try a different search or filter.</p>
+        </div>
+
+        <div class="pagination" id="pagination"></div>
+      </div>
+    </section>
+
+    <!-- ==================== SUBMIT PAGE ==================== -->
+    <section class="page" id="page-submit">
+      <div class="submit-hero">
+        <div class="container">
+          <div class="hero-badge">Open Submissions</div>
+          <h1>Submit Your <span>Write-Up</span></h1>
+          <p>
+            Share your research, CTF solutions, and security findings with the
+            hacker community. We review every submission carefully.
+          </p>
+        </div>
+      </div>
+
+      <!-- Submission guidelines -->
+      <div class="guidelines-grid">
+        <div class="guideline-item">
+          <div class="guideline-icon">✍️</div>
+          <div class="guideline-text">
+            <h4>Original Content</h4>
+            <p>Your own research or solutions.</p>
+          </div>
+        </div>
+        <div class="guideline-item">
+          <div class="guideline-icon">🔗</div>
+          <div class="guideline-text">
+            <h4>Valid URL</h4>
+            <p>Link must be publicly accessible.</p>
+          </div>
+        </div>
+        <div class="guideline-item">
+          <div class="guideline-icon">⚖️</div>
+          <div class="guideline-text">
+            <h4>Ethical</h4>
+            <p>No illegal activity or doxxing.</p>
+          </div>
+        </div>
+        <div class="guideline-item">
+          <div class="guideline-icon">📋</div>
+          <div class="guideline-text">
+            <h4>Detailed</h4>
+            <p>Clear explanation of techniques used.</p>
+          </div>
+        </div>
+        <div class="guideline-item">
+          <div class="guideline-icon">👀</div>
+          <div class="guideline-text">
+            <h4>Relevant</h4>
+            <p>Content must be relevant to the security community.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Submission form -->
+      <div class="submit-form-wrap">
+        <div class="form-card">
+          <div class="form-section-title">📝 Write-Up Details</div>
+
+          <form
+            id="submitForm"
+            action="https://formspree.io/f/mpqgjjlk"
+            method="POST"
+            novalidate
+          >
+            <div class="form-group">
+              <label>Write-Up Title <span class="req">*</span></label>
+              <input
+                type="text"
+                name="title"
+                id="f-title"
+                placeholder="e.g. CVE-2024-XXXX RCE Exploit Breakdown"
+                required
+              />
+              <p class="form-help">Make it descriptive and specific.</p>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Your Name <span class="req">*</span></label>
+                <input
+                  type="text"
+                  name="name"
+                  id="f-name"
+                  placeholder="Your handle or real name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Email Address <span class="req">*</span></label>
+                <input
+                  type="email"
+                  name="email"
+                  id="f-email"
+                  placeholder="you@example.com"
+                  required
+                />
+                <p class="form-help">
+                  For review updates only — never shown publicly.
+                </p>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Write-Up URL <span class="req">*</span></label>
+              <input
+                type="url"
+                name="url"
+                id="f-url"
+                placeholder="https://medium.com/your-writeup"
+                required
+              />
+              <p class="form-help">
+                Must be publicly accessible (Medium, GitHub, personal blog,
+                etc.)
+              </p>
+            </div>
+
+            <div class="form-group">
+              <label>Source Platform</label>
+              <select class="form-select" id="f-source" name="source">
+                <option value="">Select platform…</option>
+                <option>Medium</option>
+                <option>GitHub</option>
+                <option>Personal Blog</option>
+                <option>Notion</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Short Description <span class="req">*</span></label>
+              <textarea
+                id="f-desc"
+                name="description"
+                placeholder="Briefly describe what this write-up covers, what vulnerabilities or techniques are explained, and what readers will learn…"
+                required
+              ></textarea>
+              <p class="form-help">Between 50–300 characters is ideal.</p>
+            </div>
+
+            <div class="form-group">
+              <label>Category / Tags <span class="req">*</span></label>
+              <div class="tag-picker" id="tagPicker">
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Web')"
+                  name="tags"
+                >
+                  Web
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Pwn')"
+                  name="tags"
+                >
+                  Pwn
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Crypto')"
+                  name="tags"
+                >
+                  Crypto
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Forensics')"
+                  name="tags"
+                >
+                  Forensics
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Reverse')"
+                  name="tags"
+                >
+                  Reverse
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'OSINT')"
+                  name="tags"
+                >
+                  OSINT
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Malware')"
+                  name="tags"
+                >
+                  Malware
+                </button>
+                <button
+                  type="button"
+                  class="tag-pick-btn"
+                  onclick="toggleTag(this, 'Misc')"
+                  name="tags"
+                >
+                  Misc
+                </button>
+              </div>
+              <p class="form-help">Select all that apply.</p>
+            </div>
+
+            <hr class="form-divider" />
+            <div class="form-section-title">🔒 Additional Info</div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label>Difficulty Level</label>
+                <select class="form-select" id="f-difficulty" name="difficulty">
+                  <option value="">Select level…</option>
+                  <option>Beginner</option>
+                  <option>Intermediate</option>
+                  <option>Advanced</option>
+                  <option>Expert</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Event / CTF Name (if applicable)</label>
+                <input
+                  type="text"
+                  id="f-ctf"
+                  name="ctf"
+                  placeholder="e.g. HTB, DEFCON CTF, PicoCTF"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Twitter / X Handle (optional)</label>
+              <input
+                type="text"
+                id="f-twitter"
+                name="twitter"
+                placeholder="@yourhandle"
+              />
+            </div>
+
+            <div class="form-group">
+              <label>GitHub Profile (optional)</label>
+              <input
+                type="url"
+                id="f-github"
+                name="github"
+                placeholder="https://github.com/yourprofile"
+              />
+            </div>
+
+            <div class="form-group" style="margin-top: 1.5rem">
+              <div class="checkbox-group">
+                <input type="checkbox" id="f-agree" name="agree" required />
+                <label for="f-agree">
+                  I confirm this write-up is publicly accessible, does not
+                  promote illegal activities, and I have the right to share it.
+                  I agree to the
+                  <a href="#" style="color: var(--accent)"
+                    >submission guidelines</a
+                  >. <span class="req">*</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="checkbox-group">
+                <input type="checkbox" id="f-newsletter" name="newsletter" />
+                <label for="f-newsletter">
+                  Subscribe to the Hacker Write-Ups newsletter for updates on
+                  new write-ups and features.
+                </label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn-submit-form">
+              <span>🚀</span> Submit for Review
+            </button>
+          </form>
+
+          <div class="success-msg" id="successMsg">
+            <span class="check">✅</span>
+            <strong>Submission received!</strong>
+            <span
+              >We'll review your write-up within 2–3 business days. Check your
+              email for updates.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== SPONSORS PAGE ==================== -->
+    <section class="page" id="page-sponsors">
+      <div class="sponsors-hero">
+        <div class="hero-badge">Support the Community</div>
+        <h1>Sponsor <span>Hacker Write-Ups</span></h1>
+        <p>
+          Reach thousands of security researchers, CTF players, and bug bounty
+          hunters. Help us keep the platform free and growing.
+        </p>
+      </div>
+
+      <!-- Why sponsor -->
+      <div class="sponsor-section" style="margin-top: 3rem">
+        <h3
+          style="
+            font-size: 1.3rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            text-align: center;
+          "
+        >
+          Why Sponsor Us?
+        </h3>
+        <div class="perks-grid">
+          <div class="perk-card">
+            <div class="icon">👁️</div>
+            <h4>12k+ Readers/Month</h4>
+            <p>Active security community</p>
+          </div>
+          <div class="perk-card">
+            <div class="icon">🎯</div>
+            <h4>Targeted Audience</h4>
+            <p>Infosec professionals &amp; students</p>
+          </div>
+          <div class="perk-card">
+            <div class="icon">🌍</div>
+            <h4>Global Reach</h4>
+            <p>Readers from 60+ countries</p>
+          </div>
+          <div class="perk-card">
+            <div class="icon">📈</div>
+            <h4>Growing Fast</h4>
+            <p>+35% growth month-over-month</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing plans -->
+      <div class="plans-grid">
+        <!-- Bronze -->
+        <div class="plan-card">
+          <div class="plan-icon">🥉</div>
+          <div class="plan-name">Bronze</div>
+          <div class="plan-price">$49<span>/month</span></div>
+          <div class="plan-desc">
+            Great for small tools &amp; personal projects getting started.
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Logo in footer</li>
+            <li><span class="check">✓</span> 1 sponsored post/month</li>
+            <li><span class="check">✓</span> Social media mention (×1)</li>
+            <li class="disabled">
+              <span class="cross">✗</span> Newsletter feature
+            </li>
+            <li class="disabled">
+              <span class="cross">✗</span> Homepage banner
+            </li>
+            <li class="disabled">
+              <span class="cross">✗</span> Priority placement
+            </li>
+            <li class="disabled">
+              <span class="cross">✗</span> Dedicated article
+            </li>
+          </ul>
+          <button
+            class="btn-plan outline"
+            onclick="openSponsorModal('Bronze', '$49/mo')"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <!-- Silver (popular) -->
+        <div class="plan-card popular">
+          <div class="plan-popular-badge">Most Popular</div>
+          <div class="plan-icon" style="background: rgba(192, 192, 192, 0.12)">
+            🥈
+          </div>
+          <div class="plan-name">Silver</div>
+          <div class="plan-price">$129<span>/month</span></div>
+          <div class="plan-desc">
+            Best value for startups and growing security tools.
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Logo in footer + sidebar</li>
+            <li><span class="check">✓</span> 3 sponsored posts/month</li>
+            <li><span class="check">✓</span> Social media mentions (×3)</li>
+            <li><span class="check">✓</span> Newsletter feature (×1)</li>
+            <li><span class="check">✓</span> Homepage banner (small)</li>
+            <li class="disabled">
+              <span class="cross">✗</span> Priority placement
+            </li>
+            <li class="disabled">
+              <span class="cross">✗</span> Dedicated article
+            </li>
+          </ul>
+          <button
+            class="btn-plan primary"
+            onclick="openSponsorModal('Silver', '$129/mo')"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <!-- Gold -->
+        <div class="plan-card">
+          <div class="plan-icon" style="background: rgba(234, 179, 8, 0.12)">
+            🥇
+          </div>
+          <div class="plan-name">Gold</div>
+          <div class="plan-price">$299<span>/month</span></div>
+          <div class="plan-desc">
+            Maximum exposure for established security companies.
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Logo everywhere (all pages)</li>
+            <li><span class="check">✓</span> Unlimited sponsored posts</li>
+            <li><span class="check">✓</span> Social media (×10/month)</li>
+            <li><span class="check">✓</span> Newsletter feature (×4)</li>
+            <li><span class="check">✓</span> Homepage hero banner</li>
+            <li><span class="check">✓</span> Priority placement</li>
+            <li><span class="check">✓</span> Dedicated sponsor article</li>
+          </ul>
+          <button
+            class="btn-plan outline"
+            onclick="openSponsorModal('Gold', '$299/mo')"
+          >
+            Get Started
+          </button>
+        </div>
+
+        <!-- Enterprise -->
+        <div
+          class="plan-card"
+          style="
+            background: linear-gradient(
+              135deg,
+              var(--bg-card),
+              var(--bg-card-hover)
+            );
+          "
+        >
+          <div class="plan-icon" style="background: rgba(0, 212, 255, 0.12)">
+            🏢
+          </div>
+          <div class="plan-name">Enterprise</div>
+          <div class="plan-price" style="font-size: 1.8rem">Custom</div>
+          <div class="plan-desc">
+            Tailored partnerships for large organizations and platforms.
+          </div>
+          <ul class="plan-features">
+            <li><span class="check">✓</span> Everything in Gold</li>
+            <li><span class="check">✓</span> Custom ad placements</li>
+            <li><span class="check">✓</span> Co-branded content</li>
+            <li><span class="check">✓</span> Monthly analytics report</li>
+            <li><span class="check">✓</span> Dedicated account manager</li>
+            <li><span class="check">✓</span> Custom integration options</li>
+            <li><span class="check">✓</span> Annual contract discounts</li>
+          </ul>
+          <button
+            class="btn-plan outline"
+            onclick="openSponsorModal('Enterprise', 'Custom Pricing')"
+          >
+            Contact Us
+          </button>
+        </div>
+      </div>
+
+      <!-- FAQ -->
+      <div class="sponsor-section">
+        <h3 style="font-size: 1.2rem; font-weight: 800; margin-bottom: 1.25rem">
+          Frequently Asked Questions
+        </h3>
+        <div class="faq-list">
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              What audience will my sponsorship reach?
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-a">
+              Our readers are primarily security researchers, penetration
+              testers, CTF players, bug bounty hunters, and students in
+              cybersecurity.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              How is sponsored content labeled? <span class="arrow">▼</span>
+            </div>
+            <div class="faq-a">
+              All sponsored content is clearly labeled as "Sponsored" to
+              maintain transparency with our community. We believe honest
+              labeling builds trust with our audience.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              Can I cancel my sponsorship at any time?
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-a">
+              No. you can cancel your sponsorship at any time. But no refunds
+              will be issued for the current billing cycle.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              Do you offer discounts for annual commitments?
+              <span class="arrow">▼</span>
+            </div>
+            <div class="faq-a">
+              Yes! Annual sponsors receive 2 months free (equivalent to ~17%
+              off). Enterprise clients can negotiate fully custom annual
+              pricing.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-q" onclick="toggleFaq(this)">
+              What payment methods do you accept? <span class="arrow">▼</span>
+            </div>
+            <div class="faq-a">
+              We accept only cryptocurrency payments (Bitcoin, Ethereum, USDT,
+              etc.) for all sponsorships. This ensures privacy and security for
+              both parties.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact CTA -->
+      <div style="padding: 0 1.5rem 4rem">
+        <div class="sponsor-contact">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem">💬</div>
+          <h3>Have Questions?</h3>
+          <p>
+            Reach out to our sponsorship team. We typically respond within 24
+            hours on business days.
+          </p>
+          <button
+            class="btn-primary"
+            onclick="openSponsorModal('Enterprise', 'Custom')"
+          >
+            Contact Sponsorship Team
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== ABOUT PAGE ==================== -->
+    <section class="page" id="page-about">
+      <div class="sponsors-hero">
+        <h1>About <span>Hacker Write-Ups</span></h1>
+        <p>
+          We believe that knowledge sharing is the foundation of the security
+          community. Our mission is to surface the best write-ups from talented
+          hackers worldwide.
+        </p>
+      </div>
+
+      <div
+        class="container"
+        style="max-width: 820px; margin: 3rem auto; padding: 0 1.5rem"
+      >
+        <div class="about-grid">
+          <div class="about-card">
+            <div class="about-icon">🎯</div>
+            <h3>Our Mission</h3>
+            <p>
+              Aggregate and curate the best security write-ups from across the
+              internet, making it easy for everyone to learn from real-world
+              hacking and research.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🌍</div>
+            <h3>Community Driven</h3>
+            <p>
+              Every write-up is submitted by a member of the community. We
+              review for quality, ethics, and educational value before
+              publishing.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">🔓</div>
+            <h3>Always Free</h3>
+            <p>
+              Reading write-ups will always be free. We sustain ourselves
+              through ethical sponsorships and voluntary contributions from
+              supporters.
+            </p>
+          </div>
+          <div class="about-card">
+            <div class="about-icon">⚖️</div>
+            <h3>Ethical Standards</h3>
+            <p>
+              We do not publish write-ups that promote illegal activity,
+              unauthorized access, or personal harm. Responsible disclosure is
+              our standard.
+            </p>
+          </div>
+        </div>
+
+        <div class="about-contact-card">
+          <h3>Contact &amp; Links</h3>
+          <div class="contact-links">
+            <div class="contact-link">
+              <span>📧</span
+              ><span class="link-text-muted">hackerwriteups@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <span class="logo-text"
+              >⌨️ Hacker
+              <span style="color: var(--accent)">Write-Ups</span></span
+            >
+            <p>
+              The community-curated collection of the best hacking write-ups,
+              CTF solutions, and security research from around the web.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h5>Explore</h5>
+            <a href="#" onclick="return showPage('home');">Home</a>
+            <a href="#" onclick="return showPage('writeups');">All Write-Ups</a>
+            <a href="#" onclick="return showPage('submit');">Submit Yours</a>
+            <a href="#" onclick="return showPage('about');">About</a>
+          </div>
+          <div class="footer-col">
+            <h5>Categories</h5>
+            <a
+              href="#"
+              onclick="
+                filterByTag('Web');
+                return false;
+              "
+              >Web Security</a
+            >
+            <a
+              href="#"
+              onclick="
+                filterByTag('Pwn');
+                return false;
+              "
+              >Pwn</a
+            >
+            <a
+              href="#"
+              onclick="
+                filterByTag('Crypto');
+                return false;
+              "
+              >Cryptography</a
+            >
+            <a
+              href="#"
+              onclick="
+                filterByTag('Forensics');
+                return false;
+              "
+              >Forensics</a
+            >
+            <a
+              href="#"
+              onclick="
+                filterByTag('Reverse');
+                return false;
+              "
+              >Reverse Eng.</a
+            >
+          </div>
+          <div class="footer-col">
+            <h5>Support</h5>
+            <a href="#" onclick="return showPage('sponsors');">Sponsor Us</a>
+            <a href="#" onclick="return showPage('about');">Guidelines</a>
+            <a href="#" onclick="return showPage('about');">Privacy Policy</a>
+            <a href="#" onclick="return showPage('about');">Terms of Use</a>
+            <a href="#" onclick="return showPage('about');">Contact</a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>
+            © 2026 Hacker Write-Ups. Made by
+            <a
+              href="https://www.linkedin.com/in/r3dw4n-48m3d/"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color: var(--accent)"
+              >Redwan Ahmed</a
+            >.
+          </p>
+          <div class="footer-social">
+            <a href="#" class="social-btn" title="Twitter / X">𝕏</a>
+            <a href="#" class="social-btn" title="GitHub">⌥</a>
+            <a href="#" class="social-btn" title="Discord">💬</a>
+            <a href="#" class="social-btn" title="RSS">📡</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ===== SPONSOR MODAL ===== -->
+    <div class="modal-overlay" id="sponsorModal">
+      <div class="modal-box">
+        <button class="modal-close" onclick="closeSponsorModal()">✕</button>
+        <div style="font-size: 2rem; margin-bottom: 0.75rem">💎</div>
+        <div class="modal-title" id="modalTitle">Get Sponsor Plan</div>
+        <div class="modal-sub" id="modalSub">
+          Fill in your details and we'll get back to you within 24 hours.
+        </div>
+        <form
+          id="sponsorForm"
+          action="https://formspree.io/f/mgojllkd"
+          method="POST"
+          novalidate
+        >
+          <div class="form-group">
+            <label>Company / Product Name <span class="req">*</span></label>
+            <input
+              type="text"
+              name="company"
+              id="s-company"
+              placeholder="Your company or product name"
+              required
+            />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Contact Name <span class="req">*</span></label>
+              <input
+                type="text"
+                name="contact_name"
+                id="s-name"
+                placeholder="Your full name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label>Email <span class="req">*</span></label>
+              <input
+                type="email"
+                name="email"
+                id="s-email"
+                placeholder="you@company.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Selected Plan</label>
+            <input
+              type="text"
+              id="s-plan"
+              name="plan"
+              readonly
+              style="opacity: 0.7; cursor: default"
+            />
+          </div>
+          <div class="form-group">
+            <label>Website URL</label>
+            <input
+              type="url"
+              id="s-url"
+              name="website"
+              placeholder="https://yourcompany.com"
+            />
+          </div>
+          <div class="form-group">
+            <label>Tell us about your product <span class="req">*</span></label>
+            <textarea
+              id="s-message"
+              name="description"
+              placeholder="What does your company do, and what are your sponsorship goals?"
+              required
+              style="min-height: 90px"
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="btn-submit-form"
+            style="margin-top: 1rem"
+          >
+            <span>📨</span> Send Sponsorship Request
+          </button>
+        </form>
+        <div class="success-msg" id="sponsorSuccess">
+          <span class="check">✅</span>
+          <strong>Request received!</strong>
+          <span>Our team will contact you within 24 hours.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== TOAST ===== -->
+    <div class="toast" id="toast"></div>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="app.js"></script>
+  </body>
+</html>
