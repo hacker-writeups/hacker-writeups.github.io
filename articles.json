@@ -1,5 +1,16 @@
 [
   {
+    "title": "Four Digit Bounty, Max Impact. How I Stopped a Mass Data Breach With a Single HTTP Method Switch",
+    "description": "Bounty - $$$$",
+    "url": "https://medium.com/@speedios/four-digit-bounty-max-impact-how-i-stopped-a-mass-data-breach-with-a-single-http-method-switch-b97620dd0fdf",
+    "tags": ["Bug Bounty", "Bounty"],
+    "author": "Ahmed Yasser",
+    "date": "2026-07-01",
+    "source": "Medium",
+    "featured": true,
+    "icon": "✍️"
+  },
+  {
     "title": "IDOR in a Session Replay API: One Sequential ID From Wiping Any Customer’s Data",
     "description": "Bounty - Duplicate",
     "url": "https://medium.com/@obafemipelumi2003/idor-in-a-session-replay-api-one-sequential-id-from-wiping-any-customers-data-f24f237609da",
@@ -7,7 +18,7 @@
     "author": "0xlumi",
     "date": "2026-06-30",
     "source": "Medium",
-    "featured": true,
+    "featured": false,
     "icon": "✍️"
   },
   {
