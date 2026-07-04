@@ -1,5 +1,16 @@
 [
   {
+    "title": "They Gave Me $1,000 After I Found Their Entire Student Database Exposed!",
+    "description": "Bounty - $1000",
+    "url": "https://blogs.anukar.tech/they-gave-me-1-000-after-i-found-their-entire-student-database-exposed-f127e4bc91f3",
+    "tags": ["Bug Bounty", "Bounty"],
+    "author": "Anukar",
+    "date": "2026-07-04",
+    "source": "Medium",
+    "featured": true,
+    "icon": "✍️"
+  },
+  {
     "title": "Four Digit Bounty, Max Impact. How I Stopped a Mass Data Breach With a Single HTTP Method Switch",
     "description": "Bounty - $$$$",
     "url": "https://medium.com/@speedios/four-digit-bounty-max-impact-how-i-stopped-a-mass-data-breach-with-a-single-http-method-switch-b97620dd0fdf",
@@ -7,7 +18,7 @@
     "author": "Ahmed Yasser",
     "date": "2026-07-01",
     "source": "Medium",
-    "featured": true,
+    "featured": false,
     "icon": "✍️"
   },
   {
