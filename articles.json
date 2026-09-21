@@ -1,4 +1,15 @@
 [
+   {
+    "title": "My First Bug Bounty Finding Was Critical: Exploiting a Weak JWT Secret for Account Takeover",
+    "description": "Bounty - $1500",
+    "url": "https://medium.com/@yOnly_/my-first-bug-bounty-finding-was-critical-exploiting-a-weak-jwt-secret-for-account-takeover-dd56a07b5c92",
+    "tags": ["Bug Bounty", "Bounty"],
+    "author": "yOnly",
+    "date": "2026-09-21",
+    "source": "Medium",
+    "featured": true,
+    "icon": "✍️"
+  },
   {
     "title": "They Gave Me $1,000 After I Found Their Entire Student Database Exposed!",
     "description": "Bounty - $1000",
@@ -7,7 +18,7 @@
     "author": "Anukar",
     "date": "2026-07-04",
     "source": "Medium",
-    "featured": true,
+    "featured": false,
     "icon": "✍️"
   },
   {
