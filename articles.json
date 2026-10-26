@@ -1,4 +1,14 @@
 [
+    {
+    "title": "The User Was Removed. The Access Wasn’t.",
+    "description": "Bounty - $$$",
+    "url": "https://medium.com/@ashour2j83/i-found-an-api-endpoint-i-couldnt-explain-then-i-realized-i-could-still-access-a-private-project-5721172a6c22",
+    "tags": ["Bug Bounty", "Bounty", "HackerOne"],
+    "author": "Ashour0x",
+    "date": "2026-10-26",
+    "source": "Medium",
+    "featured": true,
+    "icon": "✍️"
    {
     "title": "How Changing One Customer ID Exposed Other Users’ Pet Recommendations and Earned Me a $1,000 Bounty",
     "description": "Bounty - $1000",
@@ -7,7 +17,7 @@
     "author": "Adini Rodini Rodney",
     "date": "2026-10-03",
     "source": "Medium",
-    "featured": true,
+    "featured": false,
     "icon": "✍️"
   },
    {
